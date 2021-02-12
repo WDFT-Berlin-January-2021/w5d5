@@ -1,15 +1,20 @@
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 a {
-  color: #00b7ff; }
+  color: #00B7FF; }
 
-h1 {
-  color: 15px; }
+.movies-wrapper {
+  display: flex;
+  flex-wrap: wrap; }
 
-  img {
-    width: 200px
-  }
+.movie-item {
+  width: 30%;
+  margin: 15px; }
+
+.movie-item img {
+  width: 80%; }
 
 /*# sourceMappingURL=style.css.map */
